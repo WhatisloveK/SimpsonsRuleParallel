@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Simpson_seq", "Simpson_seq\Simpson_seq.vcxproj", "{84321ADC-C165-4016-846B-F12D63D7D742}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Simpson_MPI", "Simpson_MPI\Simpson_MPI.vcxproj", "{86E59046-6493-41CF-9179-383AB0979933}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{84321ADC-C165-4016-846B-F12D63D7D742}.Release|x64.Build.0 = Release|x64
 		{84321ADC-C165-4016-846B-F12D63D7D742}.Release|x86.ActiveCfg = Release|Win32
 		{84321ADC-C165-4016-846B-F12D63D7D742}.Release|x86.Build.0 = Release|Win32
+		{86E59046-6493-41CF-9179-383AB0979933}.Debug|x64.ActiveCfg = Debug|x64
+		{86E59046-6493-41CF-9179-383AB0979933}.Debug|x64.Build.0 = Debug|x64
+		{86E59046-6493-41CF-9179-383AB0979933}.Debug|x86.ActiveCfg = Debug|Win32
+		{86E59046-6493-41CF-9179-383AB0979933}.Debug|x86.Build.0 = Debug|Win32
+		{86E59046-6493-41CF-9179-383AB0979933}.Release|x64.ActiveCfg = Release|x64
+		{86E59046-6493-41CF-9179-383AB0979933}.Release|x64.Build.0 = Release|x64
+		{86E59046-6493-41CF-9179-383AB0979933}.Release|x86.ActiveCfg = Release|Win32
+		{86E59046-6493-41CF-9179-383AB0979933}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
