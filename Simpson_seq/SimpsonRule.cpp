@@ -14,6 +14,7 @@ double SimpsonRule::parallel_simpson(double (*func)(double x)) {
 	double sum2 = 0, sum4 = 0, sum = 0;
 	double _xmin = xmin, _step = step;
 	long long i;
+
 #pragma omp parallel for reduction(+: sum4, sum2) private(i) shared(_xmin,_step)
 	for (i = 1; i <= n; i += 2)
 	{
