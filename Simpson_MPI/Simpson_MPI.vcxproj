@@ -145,7 +145,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="SimpsonRule.cpp" />
     <ClCompile Include="Simpson_MPI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SimpsonRule.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
