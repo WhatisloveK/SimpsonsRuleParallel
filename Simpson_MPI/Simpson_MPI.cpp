@@ -1,5 +1,4 @@
 #include "SimpsonRule.h"
-#include <mpi.h>
 #include <chrono>
 #include <iomanip>
 
