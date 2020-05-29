@@ -12,7 +12,7 @@ int main() {
 	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 	MPI_Comm_size(MPI_COMM_WORLD, &comm_size);
 	SimpsonRule simpson_helper;
-	simpson_helper.init(0, 5000, 2e9, rank, comm_size);
+	simpson_helper.init(0, 5000, 3e9, rank, comm_size);
 
 	std::chrono::steady_clock::time_point start, end;
 	
