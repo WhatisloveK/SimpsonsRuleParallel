@@ -44,8 +44,6 @@ double SimpsonRule::parallel_simpson(double (*func)(double x)) {
 			sub_sum2 += func(xmin + step * (i + 1));
 		}
 
-
-
 		double SUB_SUM4, SUB_SUM2, SUM4, SUM2;
 
 		SUM4 = sub_sum4;
